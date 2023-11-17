@@ -11,6 +11,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="app.css">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/35b428817d.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -32,34 +34,134 @@
     </header>
 
     <section>
-        <div class="about p-3 m-5 rounded-4">
+        <div class="container about p-3 rounded-4 mt-5">
           <h2 class="">// About</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti provident, nesciunt voluptate temporibus, deserunt iure cumque hic ab maiores, non nulla repellendus possimus odio aliquid ipsa obcaecati ex soluta.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor rem excepturi, est rerum itaque velit dignissimos deleniti facilis eos non, nulla aut corrupti assumenda provident laborum voluptas sed eligendi?</p>
         </div>
-        <div class="d-flex justify-content-center">
-          <div class="passion p-3 m-5 rounded-4">
-            <h2 class="">Passion</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti provident, nesciunt voluptate temporibus, deserunt iure cumque hic ab maiores, non nulla repellendus possimus odio aliquid ipsa obcaecati ex soluta.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor rem excepturi, est rerum itaque velit dignissimos deleniti facilis eos non, nulla aut corrupti assumenda provident laborum voluptas sed eligendi?</p>
-          </div>
-          <div class="passion p-3 m-5 rounded-4">
-            <h2 class="">test</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti provident, nesciunt voluptate temporibus, deserunt iure cumque hic ab maiores, non nulla repellendus possimus odio aliquid ipsa obcaecati ex soluta.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor rem excepturi, est rerum itaque velit dignissimos deleniti facilis eos non, nulla aut corrupti assumenda provident laborum voluptas sed eligendi?</p>
+        <div class="container text-center test mb-5">
+          <div class="row atest">
+            <div class="col diplo rounded-4">
+              <div id="text">
+                <h3>Diplome</h3>
+              </div>
+            </div>
+            <div class="col diplo-back rounded-4 d-none text-start p-3">
+              <div>
+                <div class="d-flex">
+                  <div class="me-2">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h2>Ingénieur Généraliste</h2>
+                </div>
+               <p class="p-3">Ecole des Hautes Etudes d'Ingénieur (HEI)<br>Lille, France / septembre 2016 à juillet 2021</p>
+              </div>
+              <div>
+                <div class="d-flex">
+                  <div class="me-2">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h2>Developer Full-Stack</h2>
+                </div>
+               <p class="p-3">Le Wagon Developer Web<br>Paris, France / Octobre 2023 à janvier 2024</p>
+              </div>
+              <div>
+                <div class="d-flex">
+                  <div class="me-2">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <h2>Baccalauréat Scientifique</h2>
+                </div>
+               <p class="p-3">Blanche de Castille<br>Le Chesnay, France / Juin 2016</p>
+              </div>
+            </div>
+            <div class="col monta rounded-4">
+              <div id="text2">
+                <h3>Passion</h3>
+              </div>
+            </div>
+            <div class="col monta-back rounded-4 d-none text-start p-3">
+              <div>
+                <div class="d-flex">
+                  <div class="me-2">
+                    <i class="fas fa-sailboat"></i>
+                  </div>
+                  <h2>Bateau</h2>
+                </div>
+               <p class="p-3">Je suis un fou de la voile, je suis skipper diplomé et j'adore emmener mes plus proche amis au gres du vent et de la tempete. Je fais de la voile depuis que je suis petit et j'ai pour projet de réaliser un transatlantique en temps que skipper.</p>
+              </div>
+              <div>
+                <div class="d-flex">
+                  <div class="me-2">
+                    <i class="fas fa-snowflake"></i>
+                  </div>
+                  <h2>Sport d'hiver</h2>
+                </div>
+               <p class="p-3">J'ai eu la chance de grandir dans un famille de montagnard et j'ai pu commencer le ski des mon plus jeune age. Je suis fan de FreeRide et de ski de randonné. Je passe aussi beaucoup de temps en montagne pour me resourcer et prendre du temps pour moi.</p>
+              </div>
+            </div>
           </div>
         </div>
     </section>
-<!--
+
     <section>
-        <h2>Mes projets</h2>
-        /* Ajoutez vos projets ici */
+        <h1 class="mt-5"><strong>// Skills</strong></h1>
+        <h5>Tech Stack | Back-End</h5>
+        <div class="d-flex justify-content-center skill">
+          <p>Java</p>
+          <p>Ruby</p>
+          <p>SQL</p>
+          <p>Spring</p>
+          <p>Python</p>
+        </div>
+        <hr>
+        <h5>Tech Stack | Front-End</h5>
+        <div class="d-flex flex-wrap justify-content-center skill">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>Javascript</p>
+          <p>Typescript</p>
+          <p>Angular</p>
+          <p>Rails</p>
+          <p>React</p>
+          <p>Node.js</p>
+          <p>Figma</p>
+          <p>Sketchup</p>
+          <p>AutoCAD</p>
+          <p>Revit</p>
+          <p>Photoshop</p>
+          <p>Illustrator</p>
+        </div>
+        <hr>
+        <h5>Soft Skill</h5>
+        <div class="d-flex flex-wrap justify-content-center skill">
+          <p>Communication</p>
+          <p>Deep Work</p>
+          <p>Time-management</p>
+          <p>Management</p>
+          <p>Team Work</p>
+          <p>Team Leader</p>
+          <p>Suite Office</p>
+        </div>
     </section>
 
-    <footer>
-        <p>Contactez-moi</p>
+    <section>
+      <h1 class="mt-5"><strong>// Projects</strong></h1>
+      <div class="d-flex">
+        <div class="card m-3" style="width: 18rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title">Rick & Morty</h5>
+            <p class="card-text">Simple application receuil des differents perosnages et lieux de la serie culte Rick & Morty</p>
+            <a href="#" class="btn btn-primary">Go see</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
         /* Ajoutez vos informations de contact ici */
-    </footer> -->
+      </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="app.js" type="module"></script>
 </body>

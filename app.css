@@ -71,7 +71,117 @@ section .about {
   color: #fff;
 }
 
-section .passion {
+.test {
+  position: absolute;
+  bottom: 0;
+}
+
+.atest {
+  gap: 5rem;
+}
+
+.diplo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(diplome.jpeg);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.diplo h3 {
+  font-weight: bold;
+  font-size: 5em;
+  color: #212529;
+  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.diplo-back h3 {
+  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.diplo.flipped {
+  transform: rotateY(180deg);
+}
+
+.diplo-back {
+  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-image: linear-gradient(rgba(33, 37, 41, 0.844), rgba(33, 37, 41, 0.844)), url(diplome.jpeg);
   background-color: black;
   color: #fff;
+  height: 30rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+i {
+  font-size: 2em;
+}
+
+.monta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(DSC_0141.JPG);
+  background-size: cover;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.monta h3 {
+  font-weight: bold;
+  font-size: 5em;
+  color: #212529;
+  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.monta-back h3 {
+  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.monta.flipped {
+  transform: rotateY(180deg);
+}
+
+.monta-back {
+  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-image: linear-gradient(rgba(33, 37, 41, 0.844), rgba(33, 37, 41, 0.844)), url(montagne.jpeg);
+  background-size: cover;
+  background-color: black;
+  color: #fff;
+  height: 30rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+section h1 {
+  position: absolute;
+  top: 0;
+}
+
+section h5 {
+  font-weight: bold;
+}
+
+section .skill p {
+  margin: 1rem;
+  padding-top: .125rem;
+  padding-bottom: .125rem;
+  padding-right: .625rem;
+  padding-left: .625rem;
+  border-radius: 9999px;
+  background-color: rgba(241,245,249,.8);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: cadetblue;
 }
