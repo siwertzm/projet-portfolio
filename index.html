@@ -8,21 +8,49 @@
   <title>Mon Portfolio</title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="app.css">
 
 </head>
 <body>
     <header>
-        <h1>Bienvenue sur mon portfolio</h1>
+        <div class="nav top-0 start-50 translate-middle-x mt-3 ps-5 pe-5">
+          <a href="#">// About</a>
+          <a href="#">// Skills</a>
+          <a href="#">// Projets</a>
+          <a href="#">// Contact</a>
+        </div>
+        <div class="text position-absolute top-50 start-50 translate-middle">
+          <h1>Welcome to my</h1>
+          <h1 class="title">Full-Stack Developer</h1>
+          <h1>Portfolio</h1>
+        </div>
+        <div class="cv position-absolute bottom-0 start-50 translate-middle-x mb-5">
+          <a href="#" class="btn btn-primary">download CV</a>
+        </div>
     </header>
 
     <section>
-        <h2>À propos de moi</h2>
-        <p>/* Votre texte ici */</p>
+        <div class="about p-3 m-5 rounded-4">
+          <h2 class="">// About</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti provident, nesciunt voluptate temporibus, deserunt iure cumque hic ab maiores, non nulla repellendus possimus odio aliquid ipsa obcaecati ex soluta.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor rem excepturi, est rerum itaque velit dignissimos deleniti facilis eos non, nulla aut corrupti assumenda provident laborum voluptas sed eligendi?</p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="passion p-3 m-5 rounded-4">
+            <h2 class="">Passion</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti provident, nesciunt voluptate temporibus, deserunt iure cumque hic ab maiores, non nulla repellendus possimus odio aliquid ipsa obcaecati ex soluta.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor rem excepturi, est rerum itaque velit dignissimos deleniti facilis eos non, nulla aut corrupti assumenda provident laborum voluptas sed eligendi?</p>
+          </div>
+          <div class="passion p-3 m-5 rounded-4">
+            <h2 class="">test</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti provident, nesciunt voluptate temporibus, deserunt iure cumque hic ab maiores, non nulla repellendus possimus odio aliquid ipsa obcaecati ex soluta.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor rem excepturi, est rerum itaque velit dignissimos deleniti facilis eos non, nulla aut corrupti assumenda provident laborum voluptas sed eligendi?</p>
+          </div>
+        </div>
     </section>
-
+<!--
     <section>
         <h2>Mes projets</h2>
         /* Ajoutez vos projets ici */
@@ -31,7 +59,8 @@
     <footer>
         <p>Contactez-moi</p>
         /* Ajoutez vos informations de contact ici */
-    </footer>
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="app.js" type="module"></script>
 </body>
 </html>
