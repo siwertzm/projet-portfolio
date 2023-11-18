@@ -117,7 +117,7 @@ section .about {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 29rem;
+  height: 27rem;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(image/diplome.jpeg);
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: transform 1s;
@@ -144,7 +144,7 @@ section .about {
   background-image: linear-gradient(rgba(33, 37, 41, 0.844), rgba(33, 37, 41, 0.844)), url(image/diplome.jpeg);
   background-color: black;
   color: #fff;
-  height: 29rem;
+  height: 27rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -158,7 +158,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 29rem;
+  height: 27rem;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(image/DSC_0141.JPG);
   background-size: cover;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -187,7 +187,7 @@ i {
   background-size: cover;
   background-color: black;
   color: #fff;
-  height: 29rem;
+  height: 27rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -219,7 +219,9 @@ section .skill p {
 footer {
   background-color: #212529;
   color: #fff;
+  font-size: 0.8rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 footer a {

@@ -61,7 +61,9 @@ btnAction.addEventListener('click', function() {
     montBack.classList.add('d-none');
     about.classList.add('grand')
   } else {
+    diplo.classList.remove('flipped');
     diplo.classList.remove('d-none');
+    mont.classList.remove('flipped');
     mont.classList.remove('d-none');
     about.classList.remove('grand')
   }
