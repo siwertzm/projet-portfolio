@@ -1,111 +1,143 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Mon Portfolio</title>
+    <title>Mon Portfolio</title>
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <!-- CSS -->
-  <link rel="stylesheet" href="app.css">
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/35b428817d.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="app.css" />
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/35b428817d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <div class="nav top-0 start-50 translate-middle-x mt-3 ps-5 pe-5">
-          <a href="#">// About</a>
-          <a href="#">// Skills</a>
-          <a href="#">// Projets</a>
-          <a href="#">// Contact</a>
+      <div class="nav top-0 start-50 translate-middle-x mt-3">
+        <a href="#">
+        <img
+          src="image/Mountain-logo-Design-Graphics-9785421-1.png"
+          id="logo"
+          alt=""
+        /></a>
+        <div class="link mt-1">
+          <a href="#about" class="mt-1">// About</a>
+          <a href="#skills" class="mt-1">// Skills</a>
+          <a href="#projects" class="mt-1">// Projets</a>
+          <a href="#contact" class="mt-1">// Contact</a>
         </div>
-        <div class="text position-absolute top-50 start-50 translate-middle">
-          <h1>Welcome to my</h1>
-          <h1 class="title">Full-Stack Developer</h1>
-          <h1>Portfolio</h1>
-        </div>
-        <div class="cv position-absolute bottom-0 start-50 translate-middle-x mb-5">
-          <a href="#" class="btn btn-primary">download CV</a>
-        </div>
+      </div>
+      <div class="text position-absolute top-50 start-50 translate-middle">
+        <h1>Welcome to my</h1>
+        <h1 class="title">Full-Stack Developer</h1>
+        <h1>Portfolio</h1>
+      </div>
+      <div
+        class="cv position-absolute bottom-0 start-50 translate-middle-x mb-5"
+      >
+        <a href="CV Marius Siwertz.pdf" download class="btn btn-primary">download CV</a>
+      </div>
     </header>
 
-    <section>
-        <div class="container about p-3 rounded-4 mt-5">
-          <h2 class="">// About</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti provident, nesciunt voluptate temporibus, deserunt iure cumque hic ab maiores, non nulla repellendus possimus odio aliquid ipsa obcaecati ex soluta.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolor rem excepturi, est rerum itaque velit dignissimos deleniti facilis eos non, nulla aut corrupti assumenda provident laborum voluptas sed eligendi?</p>
-        </div>
-        <div class="container text-center test mb-5">
-          <div class="row atest">
-            <div class="col diplo rounded-4">
-              <div id="text">
-                <h3>Diplome</h3>
-              </div>
+    <section id="about">
+      <div class="container about p-3 rounded-4 mt-5">
+        <h2 class="">// About</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+          deleniti provident, nesciunt voluptate temporibus, deserunt iure
+          cumque hic ab maiores, non nulla repellendus possimus odio aliquid
+          ipsa obcaecati ex soluta. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Sint dolor rem excepturi, est rerum itaque velit
+          dignissimos deleniti facilis eos non, nulla aut corrupti assumenda
+          provident laborum voluptas sed eligendi?
+        </p>
+      </div>
+      <div class="container text-center test mb-5">
+        <div class="row atest">
+          <div class="col diplo rounded-4">
+            <div id="text">
+              <h3>Diplome</h3>
             </div>
-            <div class="col diplo-back rounded-4 d-none text-start p-3">
-              <div>
-                <div class="d-flex">
-                  <div class="me-2">
-                    <i class="fas fa-graduation-cap"></i>
-                  </div>
-                  <h2>Ingénieur Généraliste</h2>
+          </div>
+          <div class="col diplo-back rounded-4 d-none text-start p-3">
+            <div>
+              <div class="d-flex">
+                <div class="me-2">
+                  <i class="fas fa-graduation-cap"></i>
                 </div>
-               <p class="p-3">Ecole des Hautes Etudes d'Ingénieur (HEI)<br>Lille, France / septembre 2016 à juillet 2021</p>
+                <h2>Ingénieur Généraliste</h2>
               </div>
-              <div>
-                <div class="d-flex">
-                  <div class="me-2">
-                    <i class="fas fa-graduation-cap"></i>
-                  </div>
-                  <h2>Developer Full-Stack</h2>
-                </div>
-               <p class="p-3">Le Wagon Developer Web<br>Paris, France / Octobre 2023 à janvier 2024</p>
-              </div>
-              <div>
-                <div class="d-flex">
-                  <div class="me-2">
-                    <i class="fas fa-graduation-cap"></i>
-                  </div>
-                  <h2>Baccalauréat Scientifique</h2>
-                </div>
-               <p class="p-3">Blanche de Castille<br>Le Chesnay, France / Juin 2016</p>
-              </div>
+              <p class="p-3">
+                Ecole des Hautes Etudes d'Ingénieur (HEI)<br />Lille, France /
+                septembre 2016 à juillet 2021
+              </p>
             </div>
-            <div class="col monta rounded-4">
-              <div id="text2">
-                <h3>Passion</h3>
+            <div>
+              <div class="d-flex">
+                <div class="me-2">
+                  <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h2>Developer Full-Stack</h2>
               </div>
+              <p class="p-3">
+                Le Wagon Developer Web<br />Paris, France / Octobre 2023 à
+                janvier 2024
+              </p>
             </div>
-            <div class="col monta-back rounded-4 d-none text-start p-3">
-              <div>
-                <div class="d-flex">
-                  <div class="me-2">
-                    <i class="fas fa-sailboat"></i>
-                  </div>
-                  <h2>Bateau</h2>
+          </div>
+          <div class="col monta rounded-4">
+            <div id="text2">
+              <h3>Passion</h3>
+            </div>
+          </div>
+          <div class="col monta-back rounded-4 d-none text-start p-3">
+            <div>
+              <div class="d-flex">
+                <div class="me-2">
+                  <i class="fas fa-sailboat"></i>
                 </div>
-               <p class="p-3">Je suis un fou de la voile, je suis skipper diplomé et j'adore emmener mes plus proche amis au gres du vent et de la tempete. Je fais de la voile depuis que je suis petit et j'ai pour projet de réaliser un transatlantique en temps que skipper.</p>
+                <h2>Bateau</h2>
               </div>
-              <div>
-                <div class="d-flex">
-                  <div class="me-2">
-                    <i class="fas fa-snowflake"></i>
-                  </div>
-                  <h2>Sport d'hiver</h2>
+              <p class="p-3">
+                Je suis un fou de la voile, je suis skipper diplomé et j'adore
+                emmener mes plus proche amis au gres du vent et de la tempete.
+                Je fais de la voile depuis que je suis petit et j'ai pour projet
+                de réaliser un transatlantique en temps que skipper.
+              </p>
+            </div>
+            <div>
+              <div class="d-flex">
+                <div class="me-2">
+                  <i class="fas fa-snowflake"></i>
                 </div>
-               <p class="p-3">J'ai eu la chance de grandir dans un famille de montagnard et j'ai pu commencer le ski des mon plus jeune age. Je suis fan de FreeRide et de ski de randonné. Je passe aussi beaucoup de temps en montagne pour me resourcer et prendre du temps pour moi.</p>
+                <h2>Sport d'hiver</h2>
               </div>
+              <p class="p-3">
+                J'ai eu la chance de grandir dans un famille de montagnard et
+                j'ai pu commencer le ski des mon plus jeune age. Je suis fan de
+                FreeRide et de ski de randonné. Je passe aussi beaucoup de temps
+                en montagne pour me resourcer et prendre du temps pour moi.
+              </p>
             </div>
           </div>
         </div>
+      </div>
     </section>
 
-    <section>
-        <h1 class="mt-5"><strong>// Skills</strong></h1>
+    <section id="skills">
+      <h1 class="mt-5"><strong>// Skills</strong></h1>
+      <div class="container skills mt-5">
         <h5>Tech Stack | Back-End</h5>
         <div class="d-flex justify-content-center skill">
           <p>Java</p>
@@ -114,7 +146,7 @@
           <p>Spring</p>
           <p>Python</p>
         </div>
-        <hr>
+        <hr />
         <h5>Tech Stack | Front-End</h5>
         <div class="d-flex flex-wrap justify-content-center skill">
           <p>HTML</p>
@@ -132,7 +164,7 @@
           <p>Photoshop</p>
           <p>Illustrator</p>
         </div>
-        <hr>
+        <hr />
         <h5>Soft Skill</h5>
         <div class="d-flex flex-wrap justify-content-center skill">
           <p>Communication</p>
@@ -142,27 +174,125 @@
           <p>Team Work</p>
           <p>Team Leader</p>
           <p>Suite Office</p>
+          <p>Anglais B2</p>
         </div>
+      </div>
     </section>
 
-    <section>
+    <section id="projects">
       <h1 class="mt-5"><strong>// Projects</strong></h1>
-      <div class="d-flex">
-        <div class="card m-3" style="width: 18rem;">
-          <img src="Capture d’écran 2023-11-17 à 22.29.09.png" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <h5 class="card-title">Rick & Morty</h5>
-            <p class="card-text">Simple application receuil des differents perosnages et lieux de la serie culte Rick & Morty</p>
-            <a href="#" class="btn btn-primary">Go see</a>
+      <div class="project">
+        <div class="d-flex">
+          <div class="card m-3 shadow" style="width: 20rem">
+            <img
+              src="image/Capture d’écran 2023-11-17 à 22.29.09.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Rick & Morty</h5>
+              <p class="card-text">
+                Simple application receuil des differents perosnages et lieux de
+                la serie culte Rick & Morty
+              </p>
+              <a href="#" class="btn btn-primary">Go see</a>
+            </div>
+          </div>
+          <div class="card m-3 shadow" style="width: 20rem">
+            <img src="image/thearch.png" class="card-img-top" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">The arch Reservation</h5>
+              <p class="card-text">
+                Petit site web pour enregistrer les réservations à un événement
+                de l'assoction The Arch.
+              </p>
+              <a
+                href="https://thearchreservation.eu"
+                target="_blank"
+                class="btn btn-primary"
+                >Go see</a
+              >
+            </div>
+          </div>
+          <div class="card m-3 shadow" style="width: 20rem">
+            <img
+              src="image/Capture d’écran 2023-11-18 à 00.13.09.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Le loup solitaire</h5>
+              <p class="card-text">
+                Application mobile de lecture du livre dont vous êtes le héro.
+                Digitalisation et automatisation des perosnages
+              </p>
+              <a href="#" class="btn btn-primary">Go see</a>
+            </div>
+          </div>
+          <div class="card m-3 shadow" style="width: 20rem">
+            <img
+              src="image/Capture d’écran 2023-11-18 à 00.13.09.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Can you score ?</h5>
+              <p class="card-text">
+                Application mobile de suivi de shot au basket. Permet de suivre
+                ses performances et de les comparer à ses amis.
+              </p>
+              <a href="#" class="btn btn-primary">Go see</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="footer text-center">
-        <h2>// Contact</h2>
-      </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h3>// Contacter</h3>
+            <div class="p-2">
+              <a
+                href="https://www.linkedin.com/in/marius-siwertz/"
+                target="_blank"
+                ><i class="fab fa-linkedin m-2"></i
+              ></a>
+              <a href="https://github.com/siwertzm" target="_blank"
+                ><i class="fab fa-github m-2"></i
+              ></a>
+            </div>
+            <div class="m-2">
+              <a
+                href="https://instagram.com/marius_siw?igshid=YzAwZjE1ZTI0Zg%3D%3D&utm_source=qr"
+                target="_blank"
+                ><i class="fab fa-instagram m-2"></i
+              ></a>
+              <a href="" target="_blank"><i class="fas fa-envelope m-2"></i></a>
+            </div>
+          </div>
+          <div class="col">
+            <h3>Navigation</h3>
+            <div class="d-flex flex-column">
+              <p><a href="#about">About</a></p>
+              <p><a href="#skills">Skills</a></p>
+              <p><a href="#projects">Projects</a></p>
+            </div>
+          </div>
+          <div class="col">
+            <h3>Mon Portfolio</h3>
+            <p>© 2023 - Tous droits réservés</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js" type="module"></script>
-</body>
+  </body>
 </html>
