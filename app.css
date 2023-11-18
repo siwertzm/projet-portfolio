@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -119,7 +119,7 @@ section .about {
   align-items: center;
   height: 27rem;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(image/diplome.jpeg);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -128,11 +128,11 @@ section .about {
   font-weight: bold;
   font-size: 5em;
   color: #212529;
-  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .diplo-back h3 {
-  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .diplo.flipped {
@@ -140,12 +140,12 @@ section .about {
 }
 
 .diplo-back {
-  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(rgba(33, 37, 41, 0.844), rgba(33, 37, 41, 0.844)), url(image/diplome.jpeg);
   background-color: black;
   color: #fff;
   height: 27rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -161,7 +161,7 @@ i {
   height: 27rem;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(image/DSC_0141.JPG);
   background-size: cover;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -170,11 +170,11 @@ i {
   font-weight: bold;
   font-size: 5em;
   color: #212529;
-  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .monta-back h3 {
-  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .monta.flipped {
@@ -182,13 +182,13 @@ i {
 }
 
 .monta-back {
-  text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   background-image: linear-gradient(rgba(33, 37, 41, 0.844), rgba(33, 37, 41, 0.844)), url(image/montagne.jpeg);
   background-size: cover;
   background-color: black;
   color: #fff;
   height: 27rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   transition: transform 1s;
   transform-style: preserve-3d;
 }
@@ -209,7 +209,7 @@ section .skill p {
   padding-right: .625rem;
   padding-left: .625rem;
   border-radius: 9999px;
-  background-color: rgba(241,245,249,.8);
+  background-color: rgba(241, 245, 249, .8);
 }
 
 .skills {
@@ -240,7 +240,9 @@ footer a {
   align-items: start;
 }
 
-.email-icon, .phone-icon, .home-icon {
+.email-icon,
+.phone-icon,
+.home-icon {
   display: flex;
   align-items: center;
 }

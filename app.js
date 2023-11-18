@@ -4,25 +4,25 @@ let mont = document.querySelector('.monta');
 let montBack = document.querySelector('.monta-back');
 let more = document.querySelector('#about .more');
 
-diplo.querySelector('#text').addEventListener('mouseover', function() {
+diplo.querySelector('#text').addEventListener('mouseover', function () {
   diplo.classList.add('flipped');
 });
 
-diplo.addEventListener('transitionend', function() {
+diplo.addEventListener('transitionend', function () {
   this.classList.add('d-none');
   diploBack.classList.remove('d-none')
 });
 
-mont.querySelector('#text2').addEventListener('mouseover', function() {
+mont.querySelector('#text2').addEventListener('mouseover', function () {
   mont.classList.add('flipped');
 });
 
-mont.addEventListener('transitionend', function() {
+mont.addEventListener('transitionend', function () {
   this.classList.add('d-none');
   montBack.classList.remove('d-none')
 });
 let scrolling;
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
   let nav = document.querySelector('.nav');
   if (window.pageYOffset > 50) {
     nav.style.width = '50px';
@@ -40,7 +40,7 @@ window.addEventListener('scroll', function() {
     nav.querySelector('.link').classList.remove('d-none')
   }
   clearTimeout(scrolling);
-  scrolling = setTimeout(function() {
+  scrolling = setTimeout(function () {
     nav.style.width = '950px';
     nav.style.borderRadius = '4% 4% 4% 4% / 100% 100% 100% 100%';
     logo.style.position = 'absolute';
@@ -52,7 +52,7 @@ window.addEventListener('scroll', function() {
 });
 
 let btnAction = document.querySelector('.btn-action');
-btnAction.addEventListener('click', function() {
+btnAction.addEventListener('click', function () {
   let about = document.querySelector('.about');
   if (!about.classList.contains('grand')) {
     diplo.classList.add('d-none');
