@@ -247,6 +247,7 @@ footer a {
 
 .more {
   position: absolute;
+  text-align: end;
   bottom: 1rem;
   right: 1rem;
 }
