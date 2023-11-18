@@ -100,6 +100,10 @@ section .about {
   color: #fff;
 }
 
+.grand {
+  height: 80vh;
+}
+
 .test {
   position: absolute;
   bottom: 0;
@@ -113,7 +117,7 @@ section .about {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25rem;
+  height: 29rem;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(image/diplome.jpeg);
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: transform 1s;
@@ -140,7 +144,7 @@ section .about {
   background-image: linear-gradient(rgba(33, 37, 41, 0.844), rgba(33, 37, 41, 0.844)), url(image/diplome.jpeg);
   background-color: black;
   color: #fff;
-  height: 25rem;
+  height: 29rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -154,7 +158,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25rem;
+  height: 29rem;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(image/DSC_0141.JPG);
   background-size: cover;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -183,7 +187,7 @@ i {
   background-size: cover;
   background-color: black;
   color: #fff;
-  height: 25rem;
+  height: 29rem;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
   transition: transform 1s;
   transform-style: preserve-3d;
@@ -226,5 +230,26 @@ footer a {
 
 
 .project {
-  margin-top: 10rem;
+  margin-top: 15rem;
+}
+
+.contact-icons {
+  display: flex;
+  align-items: start;
+}
+
+.email-icon, .phone-icon, .home-icon {
+  display: flex;
+  align-items: center;
+}
+
+.more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.btn-action {
+  text-decoration: none;
+  color: #fff;
 }

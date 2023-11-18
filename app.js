@@ -1,8 +1,8 @@
 let diplo = document.querySelector('.diplo');
 let diploBack = document.querySelector('.diplo-back');
 let mont = document.querySelector('.monta');
-let montBack = document.querySelector('.monta-back')
-
+let montBack = document.querySelector('.monta-back');
+let more = document.querySelector('#about .more');
 
 diplo.querySelector('#text').addEventListener('mouseover', function() {
   diplo.classList.add('flipped');
@@ -24,7 +24,7 @@ mont.addEventListener('transitionend', function() {
 let scrolling;
 window.addEventListener('scroll', function() {
   let nav = document.querySelector('.nav');
-  if (window.pageYOffset > 50) { 
+  if (window.pageYOffset > 50) {
     nav.style.width = '50px';
     nav.style.borderRadius = '50% 50% 50% 50% / 50% 50% 50% 50% ';
     nav.querySelector('.link').classList.add('d-none')
@@ -49,4 +49,20 @@ window.addEventListener('scroll', function() {
     nav.querySelector('.link').classList.remove('d-none')
     link.style.opacity = '1';
   }, 600);
+});
+
+let btnAction = document.querySelector('.btn-action');
+btnAction.addEventListener('click', function() {
+  let about = document.querySelector('.about');
+  if (!about.classList.contains('grand')) {
+    diplo.classList.add('d-none');
+    mont.classList.add('d-none');
+    diploBack.classList.add('d-none');
+    montBack.classList.add('d-none');
+    about.classList.add('grand')
+  } else {
+    diplo.classList.remove('d-none');
+    mont.classList.remove('d-none');
+    about.classList.remove('grand')
+  }
 });
